@@ -1,0 +1,33 @@
+[2.020s] Invoking command in '/users/956024/ir/ros/build/wall_following': PYTHONPATH=/users/956024/ir/ros/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /users/956024/ir/ros/build/wall_following/build --no-deps symlink_data
+[2.279s] /users/956024/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.279s]   warnings.warn(msg)
+[2.684s] running develop
+[2.685s] /users/956024/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[2.685s] !!
+[2.685s] 
+[2.685s]         ********************************************************************************
+[2.685s]         Please avoid running ``setup.py`` and ``easy_install``.
+[2.685s]         Instead, use pypa/build, pypa/installer or other
+[2.685s]         standards-based tools.
+[2.685s] 
+[2.686s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[2.686s]         ********************************************************************************
+[2.686s] 
+[2.686s] !!
+[2.686s]   easy_install.initialize_options(self)
+[3.240s] running egg_info
+[3.280s] writing wall_following.egg-info/PKG-INFO
+[3.280s] writing dependency_links to wall_following.egg-info/dependency_links.txt
+[3.281s] writing entry points to wall_following.egg-info/entry_points.txt
+[3.281s] writing requirements to wall_following.egg-info/requires.txt
+[3.281s] writing top-level names to wall_following.egg-info/top_level.txt
+[3.369s] reading manifest file 'wall_following.egg-info/SOURCES.txt'
+[3.371s] writing manifest file 'wall_following.egg-info/SOURCES.txt'
+[3.459s] running build_ext
+[3.459s] Creating /users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages/wall-following.egg-link (link to .)
+[3.461s] Installing wall_follow_d script to /users/956024/ir/ros/install/wall_following/lib/wall_following
+[3.461s] Installing wall_follow_ls script to /users/956024/ir/ros/install/wall_following/lib/wall_following
+[3.461s] 
+[3.461s] Installed /users/956024/ir/ros/build/wall_following
+[3.461s] running symlink_data
+[3.545s] Invoked command in '/users/956024/ir/ros/build/wall_following' returned '0': PYTHONPATH=/users/956024/ir/ros/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /users/956024/ir/ros/build/wall_following/build --no-deps symlink_data

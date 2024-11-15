@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.000356] (odom2pose) JobQueued: {'identifier': 'odom2pose', 'dependencies': OrderedDict()}
+[0.000660] (wall_following) JobQueued: {'identifier': 'wall_following', 'dependencies': OrderedDict()}
+[0.000706] (odom2pose) JobStarted: {'identifier': 'odom2pose'}
+[0.009716] (wall_following) JobStarted: {'identifier': 'wall_following'}
+[0.099739] (-) TimerEvent: {}
+[0.200038] (-) TimerEvent: {}
+[0.300361] (-) TimerEvent: {}
+[0.400651] (-) TimerEvent: {}
+[0.500961] (-) TimerEvent: {}
+[0.601270] (-) TimerEvent: {}
+[0.701554] (-) TimerEvent: {}
+[0.801841] (-) TimerEvent: {}
+[0.902152] (-) TimerEvent: {}
+[1.002500] (-) TimerEvent: {}
+[1.102825] (-) TimerEvent: {}
+[1.203163] (-) TimerEvent: {}
+[1.303484] (-) TimerEvent: {}
+[1.403798] (-) TimerEvent: {}
+[1.504134] (-) TimerEvent: {}
+[1.604449] (-) TimerEvent: {}
+[1.704766] (-) TimerEvent: {}
+[1.805051] (-) TimerEvent: {}
+[1.905533] (-) TimerEvent: {}
+[2.005907] (-) TimerEvent: {}
+[2.027471] (wall_following) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/users/956024/ir/ros/build/wall_following/build', '--no-deps', 'symlink_data'], 'cwd': '/users/956024/ir/ros/build/wall_following', 'env': {'LESSOPEN': '|~/.config/.lessfilter %s', 'KDE_FULL_SESSION': 'true', 'GZ_SIM_RESOURCE_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'LANGUAGE': 'en_US', 'USER': '956024', 'PAM_KWALLET5_LOGIN': '/run/user/641764588/kwallet5.socket', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'MATHEMATICA_HOME': '/opt/Mathematica', 'SSH_AGENT_PID': '2883', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/rsait_pkgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/users/956024/.local/lib/python3.10/site-packages/nvidia/cudnn/lib::/usr/local/cuda-12.5/lib64', 'LESS': '-R', 'HOME': '/users/956024', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/users/956024/ir', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/users/956024/.gtkrc:/users/956024/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'TF_CPP_MIN_LOG_LEVEL': '1', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-vQExz2u4rn,guid=0c222d7e4f7b9c682504405d67377187', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/opt/intelFPGA/18.1/quartus/sopc_builder/bin', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLCON_PREFIX_PATH': '/users/956024/ir/ros/install:/opt/rsait_pkgs', 'ROS_DISTRO': 'humble', 'LOGNAME': '956024', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GAZEBO_MODEL_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/users/956024/.gtkrc-2.0:/users/956024/.config/gtkrc-2.0', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/users/956024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/users/956024/.dotnet/tools:/opt/python/bin', 'SESSION_MANAGER': 'local/U026481:@/tmp/.ICE-unix/3093,unix/U026481:/tmp/.ICE-unix/3093', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/641764588', 'XCURSOR_THEME': 'Layan-white-cursors', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/users/956024/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXFOgc6F/agent.2741', 'ROS_DOMAIN_ID': '81', 'AMENT_PREFIX_PATH': '/users/956024/ir/ros/install/wall_following:/opt/rsait_pkgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d6661561-a48b-412d-9c42-b7bd5356e6ba', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/641764588/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'GZ_VERSION': 'fortress', 'XDG_VTNR': '1', 'INTELFPGAOCLSDKROOT': '/opt/intelFPGA/18.1/hld', 'PWD': '/users/956024/ir/ros/build/wall_following', 'XDG_CONFIG_DIRS': '/users/956024/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/users/956024/ir/ros/build/wall_following/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages:/users/956024/ir/ros/build/wall_following:/users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages:/opt/rsait_pkgs/local/lib/python3.10/dist-packages:/opt/rsait_pkgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'HUSARION_ROS_BUILD': 'simulation', 'LC_PAPER': 'es_ES.UTF-8', 'KDE_SESSION_UID': '641764588', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/rsait_pkgs'}, 'shell': False}
+[2.081008] (odom2pose) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/users/956024/ir/ros/build/odom2pose/build', '--no-deps', 'symlink_data'], 'cwd': '/users/956024/ir/ros/build/odom2pose', 'env': {'LESSOPEN': '|~/.config/.lessfilter %s', 'KDE_FULL_SESSION': 'true', 'GZ_SIM_RESOURCE_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'LANGUAGE': 'en_US', 'USER': '956024', 'PAM_KWALLET5_LOGIN': '/run/user/641764588/kwallet5.socket', 'LC_TIME': 'es_ES.UTF-8', 'XDG_SEAT': 'seat0', 'MATHEMATICA_HOME': '/opt/Mathematica', 'SSH_AGENT_PID': '2883', 'XDG_SESSION_TYPE': 'x11', 'XCURSOR_SIZE': '24', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/rsait_pkgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/users/956024/.local/lib/python3.10/site-packages/nvidia/cudnn/lib::/usr/local/cuda-12.5/lib64', 'LESS': '-R', 'HOME': '/users/956024', 'KDE_APPLICATIONS_AS_SCOPE': '1', 'OLDPWD': '/users/956024/ir', 'DESKTOP_SESSION': 'plasma', 'ROS_PYTHON_VERSION': '3', 'GTK_RC_FILES': '/etc/gtk/gtkrc:/users/956024/.gtkrc:/users/956024/.config/gtkrc', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'KDE_SESSION_VERSION': '5', 'TF_CPP_MIN_LOG_LEVEL': '1', 'LC_MONETARY': 'es_ES.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-vQExz2u4rn,guid=0c222d7e4f7b9c682504405d67377187', 'COLORTERM': 'truecolor', 'QSYS_ROOTDIR': '/opt/intelFPGA/18.1/quartus/sopc_builder/bin', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'COLCON_PREFIX_PATH': '/users/956024/ir/ros/install:/opt/rsait_pkgs', 'ROS_DISTRO': 'humble', 'LOGNAME': '956024', 'QT_AUTO_SCREEN_SCALE_FACTOR': '0', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'GAZEBO_MODEL_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'ROS_LOCALHOST_ONLY': '0', 'GTK2_RC_FILES': '/etc/gtk-2.0/gtkrc:/users/956024/.gtkrc-2.0:/users/956024/.config/gtkrc-2.0', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.5/bin:/users/956024/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/users/956024/.dotnet/tools:/opt/python/bin', 'SESSION_MANAGER': 'local/U026481:@/tmp/.ICE-unix/3093,unix/U026481:/tmp/.ICE-unix/3093', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session1', 'LC_ADDRESS': 'es_ES.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/641764588', 'XCURSOR_THEME': 'Layan-white-cursors', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'KDE', 'LC_TELEPHONE': 'es_ES.UTF-8', 'XDG_SESSION_DESKTOP': 'KDE', 'XAUTHORITY': '/users/956024/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/tmp/ssh-XXXXXXFOgc6F/agent.2741', 'ROS_DOMAIN_ID': '81', 'AMENT_PREFIX_PATH': '/users/956024/ir/ros/install/wall_following:/opt/rsait_pkgs:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'es_ES.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d6661561-a48b-412d-9c42-b7bd5356e6ba', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/rsait_pkgs/share:/opt/rsait_pkgs/share/husarion_gz_worlds/models:/opt/rsait_pkgs/share/gazebo_worlds/models', 'LC_MEASUREMENT': 'es_ES.UTF-8', 'GPG_AGENT_INFO': '/run/user/641764588/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'es_ES.UTF-8', 'GZ_VERSION': 'fortress', 'XDG_VTNR': '1', 'INTELFPGAOCLSDKROOT': '/opt/intelFPGA/18.1/hld', 'PWD': '/users/956024/ir/ros/build/odom2pose', 'XDG_CONFIG_DIRS': '/users/956024/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings', 'XDG_DATA_DIRS': '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/users/956024/ir/ros/build/odom2pose/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/users/956024/ir/ros/install/odom2pose/lib/python3.10/site-packages:/users/956024/ir/ros/build/wall_following:/users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages:/opt/rsait_pkgs/local/lib/python3.10/dist-packages:/opt/rsait_pkgs/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'es_ES.UTF-8', 'HUSARION_ROS_BUILD': 'simulation', 'LC_PAPER': 'es_ES.UTF-8', 'KDE_SESSION_UID': '641764588', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/opt/rsait_pkgs'}, 'shell': False}
+[2.105999] (-) TimerEvent: {}
+[2.206275] (-) TimerEvent: {}
+[2.289018] (wall_following) StderrLine: {'line': b"/users/956024/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.289265] (wall_following) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.306349] (-) TimerEvent: {}
+[2.339795] (odom2pose) StderrLine: {'line': b"/users/956024/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.339988] (odom2pose) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.406426] (-) TimerEvent: {}
+[2.506714] (-) TimerEvent: {}
+[2.607020] (-) TimerEvent: {}
+[2.693925] (wall_following) StdoutLine: {'line': b'running develop\n'}
+[2.694342] (wall_following) StderrLine: {'line': b'/users/956024/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.694514] (wall_following) StderrLine: {'line': b'!!\n'}
+[2.694635] (wall_following) StderrLine: {'line': b'\n'}
+[2.694777] (wall_following) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.694912] (wall_following) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.695032] (wall_following) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.695174] (wall_following) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.695299] (wall_following) StderrLine: {'line': b'\n'}
+[2.695427] (wall_following) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.695539] (wall_following) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.695647] (wall_following) StderrLine: {'line': b'\n'}
+[2.695767] (wall_following) StderrLine: {'line': b'!!\n'}
+[2.695871] (wall_following) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.707120] (-) TimerEvent: {}
+[2.749622] (odom2pose) StdoutLine: {'line': b'running develop\n'}
+[2.749964] (odom2pose) StderrLine: {'line': b'/users/956024/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[2.750100] (odom2pose) StderrLine: {'line': b'!!\n'}
+[2.750219] (odom2pose) StderrLine: {'line': b'\n'}
+[2.750338] (odom2pose) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.750462] (odom2pose) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[2.750582] (odom2pose) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[2.750702] (odom2pose) StderrLine: {'line': b'        standards-based tools.\n'}
+[2.750820] (odom2pose) StderrLine: {'line': b'\n'}
+[2.750947] (odom2pose) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[2.751076] (odom2pose) StderrLine: {'line': b'        ********************************************************************************\n'}
+[2.751197] (odom2pose) StderrLine: {'line': b'\n'}
+[2.751314] (odom2pose) StderrLine: {'line': b'!!\n'}
+[2.751430] (odom2pose) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[2.807206] (-) TimerEvent: {}
+[2.907497] (-) TimerEvent: {}
+[3.007764] (-) TimerEvent: {}
+[3.108046] (-) TimerEvent: {}
+[3.208329] (-) TimerEvent: {}
+[3.249911] (wall_following) StdoutLine: {'line': b'running egg_info\n'}
+[3.289542] (wall_following) StdoutLine: {'line': b'writing wall_following.egg-info/PKG-INFO\n'}
+[3.290108] (wall_following) StdoutLine: {'line': b'writing dependency_links to wall_following.egg-info/dependency_links.txt\n'}
+[3.290328] (wall_following) StdoutLine: {'line': b'writing entry points to wall_following.egg-info/entry_points.txt\n'}
+[3.290561] (wall_following) StdoutLine: {'line': b'writing requirements to wall_following.egg-info/requires.txt\n'}
+[3.290722] (wall_following) StdoutLine: {'line': b'writing top-level names to wall_following.egg-info/top_level.txt\n'}
+[3.302789] (odom2pose) StdoutLine: {'line': b'running egg_info\n'}
+[3.302993] (odom2pose) StdoutLine: {'line': b'creating odom2pose.egg-info\n'}
+[3.308388] (-) TimerEvent: {}
+[3.348882] (odom2pose) StdoutLine: {'line': b'writing odom2pose.egg-info/PKG-INFO\n'}
+[3.349437] (odom2pose) StdoutLine: {'line': b'writing dependency_links to odom2pose.egg-info/dependency_links.txt\n'}
+[3.349707] (odom2pose) StdoutLine: {'line': b'writing entry points to odom2pose.egg-info/entry_points.txt\n'}
+[3.349917] (odom2pose) StdoutLine: {'line': b'writing requirements to odom2pose.egg-info/requires.txt\n'}
+[3.350090] (odom2pose) StdoutLine: {'line': b'writing top-level names to odom2pose.egg-info/top_level.txt\n'}
+[3.350230] (odom2pose) StdoutLine: {'line': b"writing manifest file 'odom2pose.egg-info/SOURCES.txt'\n"}
+[3.378936] (wall_following) StdoutLine: {'line': b"reading manifest file 'wall_following.egg-info/SOURCES.txt'\n"}
+[3.380946] (wall_following) StdoutLine: {'line': b"writing manifest file 'wall_following.egg-info/SOURCES.txt'\n"}
+[3.408486] (-) TimerEvent: {}
+[3.433190] (odom2pose) StdoutLine: {'line': b"reading manifest file 'odom2pose.egg-info/SOURCES.txt'\n"}
+[3.434330] (odom2pose) StdoutLine: {'line': b"writing manifest file 'odom2pose.egg-info/SOURCES.txt'\n"}
+[3.468644] (wall_following) StdoutLine: {'line': b'running build_ext\n'}
+[3.468990] (wall_following) StdoutLine: {'line': b'Creating /users/956024/ir/ros/install/wall_following/lib/python3.10/site-packages/wall-following.egg-link (link to .)\n'}
+[3.470452] (wall_following) StdoutLine: {'line': b'Installing wall_follow_d script to /users/956024/ir/ros/install/wall_following/lib/wall_following\n'}
+[3.470708] (wall_following) StdoutLine: {'line': b'Installing wall_follow_ls script to /users/956024/ir/ros/install/wall_following/lib/wall_following\n'}
+[3.470957] (wall_following) StdoutLine: {'line': b'\n'}
+[3.471125] (wall_following) StdoutLine: {'line': b'Installed /users/956024/ir/ros/build/wall_following\n'}
+[3.471252] (wall_following) StdoutLine: {'line': b'running symlink_data\n'}
+[3.508585] (-) TimerEvent: {}
+[3.528920] (odom2pose) StdoutLine: {'line': b'running build_ext\n'}
+[3.529212] (odom2pose) StdoutLine: {'line': b'Creating /users/956024/ir/ros/install/odom2pose/lib/python3.10/site-packages/odom2pose.egg-link (link to .)\n'}
+[3.532050] (odom2pose) StdoutLine: {'line': b'Installing odom2pose script to /users/956024/ir/ros/install/odom2pose/lib/odom2pose\n'}
+[3.532477] (odom2pose) StdoutLine: {'line': b'\n'}
+[3.532570] (odom2pose) StdoutLine: {'line': b'Installed /users/956024/ir/ros/build/odom2pose\n'}
+[3.532683] (odom2pose) StdoutLine: {'line': b'running symlink_data\n'}
+[3.532908] (odom2pose) StdoutLine: {'line': b'creating /users/956024/ir/ros/install/odom2pose/share/ament_index\n'}
+[3.533009] (odom2pose) StdoutLine: {'line': b'creating /users/956024/ir/ros/install/odom2pose/share/ament_index/resource_index\n'}
+[3.533107] (odom2pose) StdoutLine: {'line': b'creating /users/956024/ir/ros/install/odom2pose/share/ament_index/resource_index/packages\n'}
+[3.533232] (odom2pose) StdoutLine: {'line': b'symbolically linking /users/956024/ir/ros/build/odom2pose/resource/odom2pose -> /users/956024/ir/ros/install/odom2pose/share/ament_index/resource_index/packages\n'}
+[3.533459] (odom2pose) StdoutLine: {'line': b'symbolically linking /users/956024/ir/ros/build/odom2pose/package.xml -> /users/956024/ir/ros/install/odom2pose/share/odom2pose\n'}
+[3.553611] (wall_following) CommandEnded: {'returncode': 0}
+[3.567830] (wall_following) JobEnded: {'identifier': 'wall_following', 'rc': 0}
+[3.608690] (-) TimerEvent: {}
+[3.616029] (odom2pose) CommandEnded: {'returncode': 0}
+[3.624117] (odom2pose) JobEnded: {'identifier': 'odom2pose', 'rc': 0}
+[3.624839] (-) EventReactorShutdown: {}
